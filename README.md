@@ -12,11 +12,12 @@ startX startY goalX goalY
 
 Additional information:<br/>
 Each straight line on the grid has a weight of 1.
-Thus, for example, a step from (0, 1) to (0, 2), or from (0, 1) to (0, 5), or from (3, 1) to (3, 6) counts as an edge with weight of one.
+Thus, for example, a step from (0, 1) to (0, 2), or from (0, 1) to (0, 5),<br/>
+or from (3, 1) to (3, 6) counts as an edge with weight of one.
 
 Constraints:<br/>
-1<=n<=100
-0<=startX startY goalX goalY<n
+1<=n<=100<br/>
+0<=startX startY goalX goalY<n<br/>
 
 Output Format:<br/>
 If there is a path from start to goal, returns the shortest route in the form of nodes' coordinates for each step of the route.
