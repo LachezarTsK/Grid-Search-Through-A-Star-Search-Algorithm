@@ -1,7 +1,7 @@
 # Grid-Search-Through-A-Star-Search-Algorithm
 Searching for a path from start to goal on a grid through the application of A-Star Search Algorithm
 
-Input Format:
+Input Format:<br/>
 - The first line contains an integer 'n', the size of the grid.
 - Each of the next 'n' lines contains a string with length 'n'.
   - Each string consists of the chars '.' or 'X' (case insensitive) or both of them.
@@ -10,68 +10,65 @@ Input Format:
 - The last line contains four space-separated integers denoting:
 startX startY goalX goalY
 
-Additional information:
-
+Additional information:<br/>
 Each straight line on the grid has a weight of 1.
 Thus, for example, a step from (0, 1) to (0, 2), or from (0, 1) to (0, 5), or from (3, 1) to (3, 6) counts as an edge with weight of one.
 
-Constraints:
-
+Constraints:<br/>
 1<=n<=100
 0<=startX startY goalX goalY<n
 
-Output Format:
-
+Output Format:<br/>
 If there is a path from start to goal, returns the shortest route in the form of nodes' coordinates for each step of the route.
 If there is no path from start to goal, returns "No path is found!".
 
-Example One.
-Input:
-10
-.X..XX...X
-..........
-.XXXXX...X
-.X...X....
-.X...X..X.
-.X...XX...
-.X...X..XX
-.X...X.X..
-.XXX......
-...X.X..XX
-9 1 9 6
-Output:
-(9, 1) (9, 0) (1, 0) (1, 6) (4, 6) (4, 7) (6, 7) (6, 6) (9, 6)
+Example One.<br/>
+Input:<br/>
+10<br/>
+.X..XX...X<br/>
+..........<br/>
+.XXXXX...X<br/>
+.X...X....<br/>
+.X...X..X.<br/>
+.X...XX...<br/>
+.X...X..XX<br/>
+.X...X.X..<br/>
+.XXX......<br/>
+...X.X..XX<br/>
+9 1 9 6<br/>
+Output:<br/>
+(9, 1) (9, 0) (1, 0) (1, 6) (4, 6) (4, 7) (6, 7) (6, 6) (9, 6)<br/>
 
-Example Two.
-Input:
-10
-.X..XX...X
-..........
-.XXXXX...X
-.X...X....
-.X...X..X.
-.X...XX...
-.X...X..XX
-.XXXXX.X..
-.XXX......
-...X.X..XX
-9 1 4 3
-Output:
-No path found!  (The goal is surrounded from all sides with obstacles.)
+Example Two.<br/>
+Input:<br/>
+10<br/>
+.X..XX...X<br/>
+..........<br/>
+.XXXXX...X<br/>
+.X...X....<br/>
+.X...X..X.<br/>
+.X...XX...<br/>
+.X...X..XX<br/>
+.XXXXX.X..<br/>
+.XXX......<br/>
+...X.X..XX<br/>
+9 1 4 3<br/>
+Output:<br/>
+No path found!  (The goal is surrounded from all sides with obstacles.)<br/>
 
-Example Three.
-Input:
-10
-.X..XX....
-..........
-.XXXXX....
-.X...X....
-.X...X..X.
-.X...XX...
-.X...X..X.
-.XXXXX.X..
-.XXX......
-..........
-9 0 0 9
-Output:
-(9, 0) (9, 9) (0, 9)
+Example Three.<br/>
+Input:<br/>
+10<br/>
+.X..XX....<br/>
+..........<br/>
+.XXXXX....<br/>
+.X...X....<br/>
+.X...X..X.<br/>
+.X...XX...<br/>
+.X...X..X.<br/>
+.XXXXX.X..<br/>
+.XXX......<br/>
+..........<br/>
+9 0 0 9<br/>
+Output:<br/>
+(9, 0) (9, 9) (0, 9)<br/>
