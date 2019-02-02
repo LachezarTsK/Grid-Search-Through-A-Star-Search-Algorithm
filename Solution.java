@@ -17,7 +17,7 @@ public class Solution {
 
 	/**
 	 * Applying AStarSearch algorithm to find the shortest path from start to goal.
-	 * Applied Approximation Heuristics - Manhattan Distance.
+	 * Applied Approximation Heuristics: Manhattan Distance.
 	 */
 	private static boolean findPath_aStarSearchRoute(int startX, int startY, int goalX, int goalY,
 			Map<Node, Node> parentMap) {
@@ -48,13 +48,13 @@ public class Solution {
 				/**
 				 * Methods movesLeft, movesRight, movesDown, movesUp:
 				 * 
-				 * Check for possible moves in the respective directions and adds them to the
+				 * Check for possible moves in the respective directions and add them to the
 				 * queue.
 				 * 
-				 * Calculates the new values for distance from start, estimated distance to goal
-				 * and modifies data accordingly in the corresponding arrays.
+				 * Calculate the new values for distance from start, estimated distance to goal
+				 * and modify data accordingly in the corresponding arrays.
 				 *
-				 * Adds the traveled paths to parentMap.
+				 * Add the traveled paths to parentMap.
 				 */
 				movesRight(goalX, goalY, current, queue, visited, parentMap);
 				movesLeft(goalX, goalY, current, queue, visited, parentMap);
