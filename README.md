@@ -1,7 +1,8 @@
 # Grid-Search-Through-A-Star-Search-Algorithm
 Searching for a path from start to goal on a grid through the application of A-Star Search Algorithm
 
-Input Format:- The first line contains an integer 'n', the size of a square grid.
+Input Format:
+- The first line contains an integer 'n', the size of a square grid.
 - Each of the next 'n' lines contains a string with length 'n'.
   - Each string consists of the chars '.' or 'X' (case insensitive) or both of them.
   - Char 'X' denotes an obstacle. Movement over such a cell is not possible.
