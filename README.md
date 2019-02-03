@@ -12,7 +12,7 @@ startX startY goalX goalY
 
 Additional Information:<br/>
 In the calculation of distance from start, each straight line on the grid has a weight of 1, regardless of its actual length.
-Thus, for example, a step from (0, 1) to (0, 2), or from (0, 1) to (0, 5), or from (1, 3) to (6, 3), counts each as an edge with weight of one.<br/>
+Thus, for example, a step from (0, 1) to (0, 2), or from (0, 1) to (0, 5), or from (1, 3) to (6, 3), counts each as an edge with weight of one.
 <br/>Thus the algorithm searches not only for the shortest path but also for the path with least turns. However, while 
 the algorithm guarantees to return the shortest path, returning the path with least turns is not always guaranteed. There are 
 some cases when the obstacles are configured in a way that is beyond the capacity of the algorithm in its present form to track the path with least turns.<br/>
