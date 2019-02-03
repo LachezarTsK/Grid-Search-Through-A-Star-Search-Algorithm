@@ -171,7 +171,7 @@ public class Solution {
 
 		boolean pathFound = findPath_aStarSearchRoute(startX, startY, goalX, goalY, parentMap);
 		if (pathFound == false) {
-			System.out.println("No path found!");
+			System.out.println("No path is found!");
 			return;
 		}
 
