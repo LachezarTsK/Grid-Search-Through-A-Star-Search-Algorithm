@@ -57,7 +57,7 @@ Input:<br/>
 ...X.X..XX<br/>
 9 1 4 3<br/>
 Output:<br/>
-No path found!  (The goal is surrounded from all sides with obstacles.)<br/>
+No path is found! (The goal is surrounded from all sides with obstacles.)<br/>
 
 Example Three.<br/>
 Input:<br/>
